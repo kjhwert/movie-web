@@ -1,9 +1,12 @@
 import React from 'react';
 import Router from "./Router";
+import "../tailwind.css";
 
 function App() {
   return (
-    <Router/>
+      <div>
+        <Router/>
+      </div>
   );
 }
 
