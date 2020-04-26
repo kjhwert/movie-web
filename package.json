@@ -14,14 +14,14 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "styled-components": "^5.1.0",
-    "tailwindcss": "^1.2.0"
+    "tailwindcss": "^1.3.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "tailwind && react-scripts build",
     "tailwind": "npx tailwindcss build public/index.css -o src/tailwind.css",
     "deploy": "gh-pages -d build",
-    "predeploy" : "npm run build"
+    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
