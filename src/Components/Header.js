@@ -11,7 +11,8 @@ const Header = styled.header`
         height : 50px;
         align-items: center;
         z-index : 10;
-     
+        background-color: #000000;
+        width: 100%;
     `
 
 const Ul = styled.ul`
